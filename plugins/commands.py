@@ -37,7 +37,7 @@ async def start(client:Client, message):
         settings = await get_settings(grp_id)         
         verify_id_info = await db.get_verify_id_info(user_id, verify_id)
         if not verify_id_info or verify_id_info["verified"]:
-            await message.reply("<b>ʟɪɴᴋ ᴇxᴘɪʀᴇᴅ ᴛʀʏ ᴀɢᴀɪɴ...</b>")
+            await message.reply("<b>ʏᴏᴜ ᴀʀᴇ ᴀʟʀᴇᴀᴅʏ ᴠᴇʀɪꜰɪᴇᴅ ᴄʟɪᴄᴋ ᴏɴ ✅ ɢᴇᴛ ꜰɪʟᴇ ✅ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ.....</b>")
             return  
         ist_timezone = pytz.timezone('Asia/Kolkata')
         if await db.user_verified(user_id):
@@ -301,7 +301,7 @@ async def start(client:Client, message):
                 file_caption=file.caption
             )
             btn = [[
-                InlineKeyboardButton("✛ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ ✛", callback_data=f'stream#{file.file_id}')                
+                InlineKeyboardButton("🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿", callback_data=f'stream#{file.file_id}')                
             ]]
             toDel = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -311,8 +311,8 @@ async def start(client:Client, message):
             )
             files_to_delete.append(toDel)
 
-        delCap = "<i>ᴀʟʟ {} ꜰɪʟᴇꜱ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ {} ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!</i>".format(len(files_to_delete), f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs')
-        afterDelCap = "<i>ᴀʟʟ {} ꜰɪʟᴇꜱ ᴀʀᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ {} ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!</i>".format(len(files_to_delete), f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs')
+        delCap = "<i>ᴀʟʟ {} ꜰɪʟᴇꜱ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ {} ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!</i>".format(len(files_to_delete), f'{FILE_AUTO_DEL_TIMER / 3600} ʜᴏᴜʀs' if FILE_AUTO_DEL_TIMER >= 3600 else f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs')
+        afterDelCap = "<i>ᴀʟʟ {} ꜰɪʟᴇꜱ ᴀʀᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ {} ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!</i>".format(len(files_to_delete), f'{FILE_AUTO_DEL_TIMER / 3600} ʜᴏᴜʀs' if FILE_AUTO_DEL_TIMER >= 3600 else f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs')
         replyed = await message.reply(
             delCap
         )
@@ -341,7 +341,7 @@ async def start(client:Client, message):
         file_caption=files.caption
     )
     btn = [[
-        InlineKeyboardButton("✛ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ ✛", callback_data=f'stream#{file_id}')
+        InlineKeyboardButton("🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿", callback_data=f'stream#{file_id}')
     ]]
     toDel=await client.send_cached_media(
         chat_id=message.from_user.id,
@@ -349,8 +349,8 @@ async def start(client:Client, message):
         caption=f_caption,
         reply_markup=InlineKeyboardMarkup(btn)
     )
-    delCap = "<i>ʏᴏᴜʀ ꜰɪʟᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ {} ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!</i>".format(f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs')
-    afterDelCap = "<i>ʏᴏᴜʀ ꜰɪʟᴇ ɪs ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ {} ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!</i>".format(f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs') 
+    delCap = "<i>ʏᴏᴜʀ ꜰɪʟᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ {} ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!</i>".format(f'{FILE_AUTO_DEL_TIMER / 3600} ʜᴏᴜʀs' if FILE_AUTO_DEL_TIMER >= 3600 else f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs')
+    afterDelCap = "<i>⊘ This message was deleted</i>".format(f'{FILE_AUTO_DEL_TIMER / 3600} ʜᴏᴜʀs' if FILE_AUTO_DEL_TIMER >= 3600 else f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs') 
     replyed = await message.reply(
         delCap,
         reply_to_message_id= toDel.id)
@@ -1101,3 +1101,5 @@ async def reset_group_command(client, message):
     reply_markup = InlineKeyboardMarkup(btn)
     await save_default_settings(grp_id)
     await message.reply_text('ꜱᴜᴄᴄᴇꜱꜱғᴜʟʟʏ ʀᴇꜱᴇᴛ ɢʀᴏᴜᴘ ꜱᴇᴛᴛɪɴɢꜱ...')
+
+#

@@ -2,14 +2,31 @@
   <img src="https://envs.sh/QL-.jpg" alt="The-Movie-filter">
 </p>
 <h1 align="center">
-  <a href="https://telegram.me/Yadav_pradeeep">The Auto filter</a>
+  <a href="https://telegram.me/Yaduvanshi Xbotz">The Auto filter</a>
 </h1>
-<img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
 
-## **𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠**
+### 🤖 Bot Commands
 
-`/commands` Enter this command inside the bot and all the commands will be set automatically.
-<img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
+<details><summary> <code>/commands</code> Enter this command inside the bot and all the commands will be set automatically.</summary>
+  
+  ```
+start - Start The Bot  
+most - Get Most Searches Button List  
+trend - Get Top Trending Button List  
+mostlist - Show Most Searches List  
+trendlist - 𝖦𝖾𝗍 𝖳𝗈𝗉 𝖳𝗋𝖾𝗇𝖽𝗂𝗇𝗀 𝖡𝗎𝗍𝗍𝗈𝗇 𝖫𝗂𝗌𝗍  
+plan - Check Available Premium Membership Plans  
+myplan - Check Your Current Plan  
+refer - To Refer Your Friend And Get Premium  
+stats - Check My Database  
+id - Get Telegram Id  
+font - To Generate Cool Fonts  
+details - Check Group Details  
+settings - Change Bot Setting  
+grp_cmds - Check Group Commands  
+admin_cmds - Bot Admin Commands
+  ```
+</details>
 
 ## **Features**
 <details><summary>Check Bot Futures</summary>
@@ -59,7 +76,10 @@
 - [x] Set ads 
 - [x] 𝐴𝑛𝑑 𝑀𝑜𝑟𝑒...
 </details>
-<img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
+
+## Futures Screenshot
+- Screenshot link - [Click Here](https://jisshuapis.vercel.app/screenshot.php)
+- Demo bot - [@TheMovieFilesBot](https://t.me/TheMovieFilesBot)
 
 ## Variables
 
@@ -72,13 +92,12 @@
 * `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
 * `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com).
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
-<img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
-  
-<img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
+
+
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/YADUVANSHIXD/TheMovieFilterBot">
+<a href="https://heroku.com/deploy?template=https://github.com/PYXCoder/Jisshu-filter-bot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
 </a>
 </p>
@@ -90,7 +109,7 @@
 <br>
 <br>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/YADUVANSHIXD/TheMovieFilterBot&branch=main&name=TheMovieFilterBot )
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/PYXCoder/Jisshu-filter-bot&branch=main&name=Jisshu-filter-bot )
 </details>
 
 <details><summary>Deploy To Render</summary>
@@ -117,7 +136,7 @@ Use these settings when adding a monitor:</b>
 <b>Click on the below button to deploy directly to render ↓</b>
 <br>
 <br>
-<a href="https://render.com/deploy?repo=https://github.com/YADUVANSHIXD/TheMovieFilterBot/tree/main">
+<a href="https://render.com/deploy?repo=https://github.com/PYXCoder/Jisshu-filter-bot/tree/main">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
 </details>
@@ -125,7 +144,7 @@ Use these settings when adding a monitor:</b>
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/YADUVANSHIXD/TheMovieFilterBot
+git clone https://github.com/PYXCoder/Jisshu-filter-bot
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -133,22 +152,14 @@ python3 bot.py
 </pre>
 </p>
 </details>
+ 
+## **Special Thanks to**
 
-<img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
+- thanks to [YADUVANSHI](https://t.me/Yadav_Pradeeep) (myself) for modifying the repo and adding powerful new features.  
+- Thanks to [Ꭺɴᴏɴʏᴍᴏᴜꜱ](https://t.me/@Yadav_pradeeep) for contributing innovative features and consistently helping improve the project.  
+- Thanks to [𝐌ʀ 𝐈ɴғɪɴɪᴛʏ](https://t.me/Yadav_pradeeep) for identifying and fixing important issues, ensuring better performance and stability.
 
 
-## **Thanks to** 
- - <b>Thanks To [Yaduvanshi_bots](https://t.me/YaduvanshiXbotz) To Modify And Add Amazing Feature In The Repo
- - Thanks To [biisal](https://github.com/biisal/biisal-filter-bot) For Base Repo
- - Thanks To [Ꭺɴᴏɴʏᴍᴏᴜꜱ](https://t.me/TG_Anonymous_Official) To refresh Future Code and Update premium future</b>
- - Thanks To [Zoro](https://t.me/JOYBOY_ZORO) Your ideas have been a huge help in improving this project. Thanks for your valuable input!
- - Thanks To [ɪᴛ'ꜱ ʟᴜғғʏ](https://t.me/CoderluffyTG) For fixing key errors and making the bot better. Your help has been truly appreciated!
- - Thanks To All Everyone In This Journey
- <img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
-
-<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
-<h1> <img src="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Logo/Jisshu.png" width="70px" style="border-radius: 50%"> ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ </h1>
+<h1> <img src="https://files.catbox.moe/eps9v4.jpg" width="70px" style="border-radius: 50%"> ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ </h1>
   
-[<img src="https://raw.githubusercontent.com/Jisshubot/Jisshubot/master/resources/telegram_icon.png" width="60px">](https://telegram.im/@YADUVANSHIXBOTZ) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/github_icon.png" width="60px">](https://github.com/YADUVANSHIXD) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/youtube_icon.png" width="60px">](https://www.youtube.com/@YADUVANSHI_XD) [<img src="https://github.com/AnonymousX1025/AnonymousX1025/blob/master/resources/insta_icon.png" width="60px">](https://instagram.com/Yaduvanshi_pradeep__143)
-
-<img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
+[<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/telegram_icon.png" width="60px">](https://telegram.im/@YaduvanshiXbotz) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/github_icon.png" width="60px">](https://github.com/PYXCoder) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/youtube_icon.png" width="60px">](https://www.youtube.com/@yaduvanshi_XD) [<img src="https://github.com/AnonymousX1025/AnonymousX1025/blob/master/resources/insta_icon.png" width="60px">](https://instagram.com/Yaduvanshi_pradeep__143)

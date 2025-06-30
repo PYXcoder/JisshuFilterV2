@@ -488,17 +488,17 @@ async def start(client: Client, message):
         delCap = "<i>ᴀʟʟ {} ꜰɪʟᴇꜱ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ {} ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!</i>".format(
             len(files_to_delete),
             (
-                f'{FILE_AUTO_DEL_TIMER / 3600} ʜᴏᴜʀs"
+                f"{FILE_AUTO_DEL_TIMER / 3600} ʜᴏᴜʀs"
                 if FILE_AUTO_DEL_TIMER >= 3600
-                else f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs"
+                else f"{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs"
             ),
         )
         afterDelCap = "<i>⊘ This message was deleted</i>".format(
             len(files_to_delete),
             (
-                f'{FILE_AUTO_DEL_TIMER / 3600} ʜᴏᴜʀs"
+                f"{FILE_AUTO_DEL_TIMER / 3600} ʜᴏᴜʀs"
                 if FILE_AUTO_DEL_TIMER >= 3600
-                else f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs"
+                else f"{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs"
             ),
         )
         replyed = await message.reply(delCap)
@@ -542,15 +542,15 @@ async def start(client: Client, message):
         reply_markup=InlineKeyboardMarkup(btn),
     )
     delCap = "<i>ʏᴏᴜʀ ꜰɪʟᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ {} ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!</i>".format(
-        f'{FILE_AUTO_DEL_TIMER / 3600} ʜᴏᴜʀs"
+        f"{FILE_AUTO_DEL_TIMER / 3600} ʜᴏᴜʀs"
         if FILE_AUTO_DEL_TIMER >= 3600
-        else f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs"
+        else f"{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs"
     )
     afterDelCap = (
         "<i>⊘ This message was deleted</i>".format(
-            f'{FILE_AUTO_DEL_TIMER / 3600} ʜᴏᴜʀs"
+            f"{FILE_AUTO_DEL_TIMER / 3600} ʜᴏᴜʀs"
             if FILE_AUTO_DEL_TIMER >= 3600
-            else f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs"
+            else f"{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs"
         )
     )
     replyed = await message.reply(delCap, reply_to_message_id=toDel.id)

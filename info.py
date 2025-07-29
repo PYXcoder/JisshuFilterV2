@@ -24,7 +24,7 @@ PORT = environ.get("PORT", "8082")
 # Owners
 ADMINS = [
     int(admin) if id_pattern.search(admin) else admin
-    for admin in environ.get("ADMINS", "5294914915 7986684117").split()
+    for admin in environ.get("ADMINS", "5294914915 6162945088 7986684117").split()
 ]
 OWNER_USERNAME = environ.get(
     "OWNER_USERNAME", "B4UOwnerBot"
@@ -68,7 +68,7 @@ SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/YaduvanshiXsupport")
 MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/B4UMovieZone")
 
 # Verification
-IS_VERIFY = is_enabled("IS_VERIFY", False)
+IS_VERIFY = is_enabled("IS_VERIFY", True)
 # ---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_to_open_movielink/15")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/How_to_open_movielink/17")
@@ -141,7 +141,7 @@ PAYPICS = (
 SUBSCRIPTION = environ.get(
     "SUBSCRIPTION", "https://envs.sh/WzO.jpg"
 )
-REACTIONS = ["👀", "😈", "🔥", "😍", "🎉", "🥰", "❤️", "🤠", "😘", "🙏", "🤗", "😻", "🌹", "👻", "🌚", "🤡", "😇", "⚡"]
+REACTIONS = ["👀", 🤝", "🌹", "🙏", "🤡", "❤️", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"]
 
 
 # Other Funtions

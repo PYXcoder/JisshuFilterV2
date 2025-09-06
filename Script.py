@@ -309,7 +309,7 @@ User - {}"""
  ❏ 𝟷𝟸𝟶₹    ➠    𝟶𝟼 ᴍᴏɴᴛʜ
  ❏ 𝟸𝟶𝟶₹    ➠    𝟷𝟸 ᴍᴏɴᴛʜ
 
-🆔 ᴜᴘɪ ɪᴅ ➩ <code>pradeepyadav916114@oksbi</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
+🆔 ᴜᴘɪ ɪᴅ ➩ <code>b4umoviezone@ptyes</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
  
 ⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 
